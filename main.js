@@ -72,16 +72,11 @@ function save() {
         <td class="p-4 w-2/6">${taskTitle}</td>
         <td class="p-4 w-2/6">${taskDesc}</td>
         <td class="w-1/12">
-            <button></button>
             <button onclick="edit(this.closest('tr'))" class="editBtn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                <svg class="w-4 h-4 inline-block" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M17.414 2.586a2 2 0 00-2.828 0L14 3.586 16.414 6 16 6.414l-2.586-2.586-1.414 1.414L14 8l-1.414 1.414-1.414-1.414L8 10l-1.414 1.414 1.414 1.414L6 14l-1.414 1.414A2 2 0 004 16h12a2 2 0 001.414-.586l1.414-1.414a2 2 0 000-2.828l-2.586-2.586z" />
-                </svg>
+                Modify
             </button>
             <button onclick="destroy(this.closest('tr'))" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
-                <svg class="w-4 h-4 inline-block" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M6 2a1 1 0 00-1 1v1H2a1 1 0 000 2h1v10a2 2 0 002 2h10a2 2 0 002-2V6h1a1 1 0 000-2h-3V3a1 1 0 00-1-1H6zm0 2h8v1H6V4zM4 8h12v10H4V8z" />
-                </svg>
+                Delete
             </button>
         </td>
 
